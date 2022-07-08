@@ -6,7 +6,7 @@
 
     <groupId>thiagodnf</groupId>
     <artifactId>ga</artifactId>
-    <version>0.0.4</version>
+    <version>0.0.5</version>
     <name>Genetic Algorithm</name>
     <description>A Java-based Implementation for Genetic Algorithm</description>
 
