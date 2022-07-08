@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>thiagodnf</groupId>
-    <artifactId>ga4nrp</artifactId>
+    <artifactId>genetic-algorithm</artifactId>
     <version>0.0.1</version>
-    <name>GA4NRP</name>
-    <description>Genetic Algorithm for Next Release Problem</description>
+    <name>Genetic Algorithm</name>
+    <description>A Java-based Implementation for Genetic Algorithm</description>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
