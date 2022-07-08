@@ -1,6 +1,6 @@
-package thiagodnf.ga4nrp.algorithm.replacement;
+package thiagodnf.ga.algorithm.replacement;
 
-import thiagodnf.ga4nrp.encoding.Solution;
+import thiagodnf.ga.encoding.Solution;
 
 import java.util.ArrayList;
 import java.util.Collections;

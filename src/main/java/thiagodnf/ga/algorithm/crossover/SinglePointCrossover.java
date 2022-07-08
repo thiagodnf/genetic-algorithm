@@ -1,7 +1,7 @@
-package thiagodnf.ga4nrp.algorithm.crossover;
+package thiagodnf.ga.algorithm.crossover;
 
-import thiagodnf.ga4nrp.encoding.Solution;
-import thiagodnf.ga4nrp.util.RandomUtils;
+import thiagodnf.ga.encoding.Solution;
+import thiagodnf.ga.util.RandomUtils;
 
 import java.util.ArrayList;
 import java.util.List;

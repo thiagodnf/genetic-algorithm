@@ -1,4 +1,4 @@
-package thiagodnf.ga4nrp.util;
+package thiagodnf.ga.util;
 
 import java.util.List;
 import java.util.Random;

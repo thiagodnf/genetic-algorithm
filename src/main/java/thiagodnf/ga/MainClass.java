@@ -1,12 +1,12 @@
-package thiagodnf.ga4nrp;
+package thiagodnf.ga;
 
-import thiagodnf.ga4nrp.algorithm.GeneticAlgorithm;
-import thiagodnf.ga4nrp.algorithm.crossover.SinglePointCrossover;
-import thiagodnf.ga4nrp.algorithm.mutation.BitFlipMutation;
-import thiagodnf.ga4nrp.algorithm.replacement.BestSolutionsReplacement;
-import thiagodnf.ga4nrp.algorithm.selection.TournamentSelection;
-import thiagodnf.ga4nrp.problem.ZeroOneProblem;
-import thiagodnf.ga4nrp.encoding.Solution;
+import thiagodnf.ga.algorithm.GeneticAlgorithm;
+import thiagodnf.ga.algorithm.crossover.SinglePointCrossover;
+import thiagodnf.ga.algorithm.mutation.BitFlipMutation;
+import thiagodnf.ga.algorithm.replacement.BestSolutionsReplacement;
+import thiagodnf.ga.algorithm.selection.TournamentSelection;
+import thiagodnf.ga.problem.ZeroOneProblem;
+import thiagodnf.ga.encoding.Solution;
 
 public class MainClass {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package thiagodnf.ga4nrp.algorithm.selection;
+package thiagodnf.ga.algorithm.selection;
 
-import thiagodnf.ga4nrp.encoding.Solution;
-import thiagodnf.ga4nrp.util.RandomUtils;
+import thiagodnf.ga.encoding.Solution;
+import thiagodnf.ga.util.RandomUtils;
 
 import java.util.ArrayList;
 import java.util.List;

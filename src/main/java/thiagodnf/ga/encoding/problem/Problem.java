@@ -1,6 +1,6 @@
-package thiagodnf.ga4nrp.encoding.problem;
+package thiagodnf.ga.encoding.problem;
 
-import thiagodnf.ga4nrp.encoding.Solution;
+import thiagodnf.ga.encoding.Solution;
 
 public abstract class Problem {
 

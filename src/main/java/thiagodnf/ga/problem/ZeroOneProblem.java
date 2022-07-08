@@ -1,7 +1,7 @@
-package thiagodnf.ga4nrp.problem;
+package thiagodnf.ga.problem;
 
-import thiagodnf.ga4nrp.encoding.Solution;
-import thiagodnf.ga4nrp.encoding.problem.BinaryProblem;
+import thiagodnf.ga.encoding.Solution;
+import thiagodnf.ga.encoding.problem.BinaryProblem;
 
 public class ZeroOneProblem extends BinaryProblem {
 

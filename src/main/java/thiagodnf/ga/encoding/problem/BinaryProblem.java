@@ -1,7 +1,7 @@
-package thiagodnf.ga4nrp.encoding.problem;
+package thiagodnf.ga.encoding.problem;
 
-import thiagodnf.ga4nrp.encoding.Solution;
-import thiagodnf.ga4nrp.util.RandomUtils;
+import thiagodnf.ga.encoding.Solution;
+import thiagodnf.ga.util.RandomUtils;
 
 public abstract class BinaryProblem extends Problem {
 

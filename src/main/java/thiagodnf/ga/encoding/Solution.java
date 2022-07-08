@@ -1,6 +1,6 @@
-package thiagodnf.ga4nrp.encoding;
+package thiagodnf.ga.encoding;
 
-import thiagodnf.ga4nrp.util.SolutionUtils;
+import thiagodnf.ga.util.SolutionUtils;
 
 import java.util.Arrays;
 

@@ -1,11 +1,11 @@
-package thiagodnf.ga4nrp.algorithm;
+package thiagodnf.ga.algorithm;
 
-import thiagodnf.ga4nrp.algorithm.crossover.Crossover;
-import thiagodnf.ga4nrp.algorithm.mutation.Mutation;
-import thiagodnf.ga4nrp.algorithm.replacement.Replacement;
-import thiagodnf.ga4nrp.algorithm.selection.Selection;
-import thiagodnf.ga4nrp.encoding.problem.Problem;
-import thiagodnf.ga4nrp.encoding.Solution;
+import thiagodnf.ga.algorithm.crossover.Crossover;
+import thiagodnf.ga.algorithm.mutation.Mutation;
+import thiagodnf.ga.algorithm.replacement.Replacement;
+import thiagodnf.ga.algorithm.selection.Selection;
+import thiagodnf.ga.encoding.problem.Problem;
+import thiagodnf.ga.encoding.Solution;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -15,7 +15,7 @@
         <maven.compiler.target>18</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <main.class>thiagodnf.ga4nrp.MainClass</main.class>
+        <main.class>thiagodnf.ga.MainClass</main.class>
     </properties>
 
     <dependencies>
