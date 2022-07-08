@@ -30,11 +30,15 @@ public class GeneticAlgorithm {
 
     private Replacement replacement;
 
+    private List<Solution> bestSolutionOnEachGeneration;
+
     public GeneticAlgorithm(Problem problem, int populationSize, int maxGenerations) {
 
         this.problem = problem;
         this.populationSize = populationSize;
         this.maxGenerations = maxGenerations;
+
+        this.bestSolutionOnEachGeneration = new ArrayList<>();
     }
 
     public List<Solution> createRandomPopulation() {
@@ -72,6 +76,8 @@ public class GeneticAlgorithm {
             evaluate(offspring);
 
             population = replacement.execute(population, offspring);
+
+            bestSolutionOnEachGeneration.add(population.get(0));
         }
 
         return population.get(0);

@@ -48,10 +48,13 @@ Then add the dependency.
 </dependency>
 ```
 
-Now you can import the class on your project.
+Now you can import the classes on your project. For instance:
 
 ```java
-Problem problem = <Your Problem>
+int populationSize = 100;
+int maxGenerations = 1000;
+
+Problem problem = new ZeroOneProblem(10);
 
 GeneticAlgorithm ga = new GeneticAlgorithm(problem, populationSize, maxGenerations);
 
@@ -61,6 +64,8 @@ ga.setMutation(new BitFlipMutation(0.005));
 ga.setReplacement(new BestSolutionsReplacement());
 
 Solution bestSolution = ga.run();
+
+System.out.println(bestSolution);
 ```
 
 ## Questions Or Suggestions
