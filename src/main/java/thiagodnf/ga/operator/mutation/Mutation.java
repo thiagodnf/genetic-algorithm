@@ -1,4 +1,4 @@
-package thiagodnf.ga.algorithm.mutation;
+package thiagodnf.ga.operator.mutation;
 
 import thiagodnf.ga.encoding.Solution;
 

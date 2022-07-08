@@ -1,4 +1,4 @@
-package thiagodnf.ga.algorithm.selection;
+package thiagodnf.ga.operator.selection;
 
 import thiagodnf.ga.encoding.Solution;
 

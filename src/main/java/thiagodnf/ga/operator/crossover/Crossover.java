@@ -1,4 +1,4 @@
-package thiagodnf.ga.algorithm.crossover;
+package thiagodnf.ga.operator.crossover;
 
 import thiagodnf.ga.encoding.Solution;
 

@@ -1,4 +1,4 @@
-package thiagodnf.ga.algorithm.replacement;
+package thiagodnf.ga.operator.replacement;
 
 import thiagodnf.ga.encoding.Solution;
 

@@ -1,11 +1,14 @@
 package thiagodnf.ga.util;
 
+import lombok.experimental.UtilityClass;
+
 import java.util.List;
 import java.util.Random;
 
 /**
  * Utility class for generating random numbers
  */
+@UtilityClass
 public class RandomUtils {
 
     private static final Random random;

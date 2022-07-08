@@ -1,19 +1,25 @@
-package thiagodnf.ga.algorithm;
+package thiagodnf.ga;
 
-import thiagodnf.ga.algorithm.crossover.Crossover;
-import thiagodnf.ga.algorithm.mutation.Mutation;
-import thiagodnf.ga.algorithm.replacement.Replacement;
-import thiagodnf.ga.algorithm.selection.Selection;
+import lombok.Getter;
+import lombok.Setter;
+import thiagodnf.ga.operator.crossover.Crossover;
+import thiagodnf.ga.operator.mutation.Mutation;
+import thiagodnf.ga.operator.replacement.Replacement;
+import thiagodnf.ga.operator.selection.Selection;
 import thiagodnf.ga.encoding.problem.Problem;
 import thiagodnf.ga.encoding.Solution;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Getter
+@Setter
 public class GeneticAlgorithm {
 
     private Problem problem;
+
     private int populationSize;
+
     private int maxGenerations;
 
     private Selection selection;
@@ -29,22 +35,6 @@ public class GeneticAlgorithm {
         this.problem = problem;
         this.populationSize = populationSize;
         this.maxGenerations = maxGenerations;
-    }
-
-    public void setSelection(Selection selection) {
-        this.selection = selection;
-    }
-
-    public void setCrossover(Crossover crossover) {
-        this.crossover = crossover;
-    }
-
-    public void setMutation(Mutation mutation) {
-        this.mutation = mutation;
-    }
-
-    public void setReplacement(Replacement replacement){
-        this.replacement = replacement;
     }
 
     public List<Solution> createRandomPopulation() {
