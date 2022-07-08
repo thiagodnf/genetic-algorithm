@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>thiagodnf</groupId>
-    <artifactId>genetic-algorithm</artifactId>
+    <artifactId>ga</artifactId>
     <version>0.0.1</version>
     <name>Genetic Algorithm</name>
     <description>A Java-based Implementation for Genetic Algorithm</description>
