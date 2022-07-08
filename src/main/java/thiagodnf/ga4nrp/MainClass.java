@@ -9,7 +9,6 @@ import thiagodnf.ga4nrp.problem.ZeroOneProblem;
 import thiagodnf.ga4nrp.encoding.Solution;
 
 public class MainClass {
-
     public static void main(String[] args) {
 
         int maxBits = 100;
