@@ -11,8 +11,50 @@ A Java-based Implementation for Genetic Algorithm (GA)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
+## Features
 
-## Questions or Suggestions
+ - Encoding
+   - Binary Solution
+ - Evolutionary Operators
+   - Selection
+     - Tournament Selection
+   - Crossover
+     - Single Point Crossover
+   - Mutation
+     - Bit Flip Mutation
+   - Replacement
+     - Best Solutions Replacement
+
+## How To Use It
+
+Add a new repository on your Maven project (please refer to [https://jitpack.io](https://jitpack.io) if you want to add it by using Gradle):
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+
+Then add the dependency.
+
+```xml
+<dependency>
+    <groupId>com.github.thiagodnf</groupId>
+    <artifactId>genetic-algorithm</artifactId>
+    <version>0.0.3</version>
+</dependency>
+```
+
+Now you can import the class on your project.
+
+```java
+
+```
+
+## Questions Or Suggestions
 
 Feel free to access the <a href="../../discussions">discussions tab</a> as you need
 
