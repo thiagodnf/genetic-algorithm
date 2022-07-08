@@ -14,7 +14,7 @@ jobs:
 
       - id: releaser
         name: New Version Decider
-        uses: thiagodnf/new-version-decider@v0.0.9
+        uses: thiagodnf/new-version-decider@0.0.9
         with:
           loader: java-maven
           configurationFile: ./pom.xml
