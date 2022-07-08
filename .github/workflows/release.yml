@@ -1,14 +1,14 @@
-name: "release"
+name: "Release"
 on:
   pull_request:
   push:
     branches:
       - main
-
 jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+
       - name: Checking out
         uses: actions/checkout@v3
 
@@ -19,12 +19,22 @@ jobs:
           loader: java-maven
           configurationFile: ./pom.xml
 
+      - name: Set up JDK 11
+        uses: actions/setup-java@v1
+        with:
+          java-version: 15
+
+      - name: Build with Maven
+        run: mvn install --file pom.xml
+
+      - run: mkdir staging && cp target/*.zip staging
+
       - name: Create Release on Github
         uses: softprops/action-gh-release@v1
         if: ${{steps.releaser.outputs.newVersion == 'true' }}
         with:
           name: ${{ steps.releaser.outputs.currentVersion }}
           tag_name: v${{steps.releaser.outputs.currentVersion}}
-          # files: "*"
+          files: staging/*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
