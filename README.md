@@ -68,6 +68,12 @@ Solution bestSolution = ga.run();
 System.out.println(bestSolution);
 ```
 
+This is the output:
+
+```sh
+#415 [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] = -10.0
+```
+
 ## Questions Or Suggestions
 
 Feel free to access the <a href="../../discussions">discussions tab</a> as you need
