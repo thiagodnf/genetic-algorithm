@@ -4,7 +4,7 @@
 
 A Java-based Implementation for Genetic Algorithm (GA)
 
-[![Build](https://github.com/thiagodnf/genetic-algorithm/actions/workflows/build.yml/badge.svg)](https://github.com/thiagodnf/genetic-algorithm/actions/workflows/build.yml)
+[![Release](https://github.com/thiagodnf/genetic-algorithm/actions/workflows/release.yml/badge.svg)](https://github.com/thiagodnf/genetic-algorithm/actions/workflows/release.yml)
 [![GitHub Release](https://img.shields.io/github/release/thiagodnf/genetic-algorithm.svg)](https://github.com/thiagodnf/genetic-algorithm/releases/latest)
 [![GitHub contributors](https://img.shields.io/github/contributors/thiagodnf/genetic-algorithm.svg)](https://github.com/thiagodnf/genetic-algorithm/graphs/contributors)
 [![GitHub stars](https://img.shields.io/github/stars/thiagodnf/genetic-algorithm.svg)](https://github.com/thiagodnf/genetic-algorithm)
