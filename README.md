@@ -51,7 +51,16 @@ Then add the dependency.
 Now you can import the class on your project.
 
 ```java
+Problem problem = <Your Problem>
 
+GeneticAlgorithm ga = new GeneticAlgorithm(problem, populationSize, maxGenerations);
+
+ga.setSelection(new TournamentSelection(2));
+ga.setCrossover(new SinglePointCrossover(0.95));
+ga.setMutation(new BitFlipMutation(0.005));
+ga.setReplacement(new BestSolutionsReplacement());
+
+Solution bestSolution = ga.run();
 ```
 
 ## Questions Or Suggestions
