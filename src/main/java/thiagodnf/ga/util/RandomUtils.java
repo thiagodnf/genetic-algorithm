@@ -3,14 +3,20 @@ package thiagodnf.ga.util;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * Utility class for generating random numbers
+ */
 public class RandomUtils {
 
-    private static Random random;
+    private static final Random random;
 
     static {
         random = new Random();
     }
 
+    /**
+     * @return a random uniformly distributed double value between 0.0 and 1.0
+     */
     public static double randDouble(){
         return random.nextDouble();
     }
