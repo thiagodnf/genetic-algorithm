@@ -10,6 +10,7 @@
     <name>Genetic Algorithm</name>
     <description>A Java-based Implementation for Genetic Algorithm</description>
 
+    
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
