@@ -19,10 +19,10 @@ jobs:
           loader: java-maven
           configurationFile: ./pom.xml
 
-      - name: Set up JDK 11
+      - name: Set up JDK 18
         uses: actions/setup-java@v1
         with:
-          java-version: 15
+          java-version: 18
 
       - name: Build with Maven
         run: mvn install
